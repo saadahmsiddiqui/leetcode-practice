@@ -1,4 +1,5 @@
 import { longestCommonPrefix } from "./longestCommonPrefix";
+import { ListNode, mergeTwoLists, printList } from "./mergeTwoSortedLists";
 import { numRabbits } from "./rabbitsInForest";
 import { romanToInt } from "./romanToInt";
 
@@ -7,4 +8,10 @@ import { romanToInt } from "./romanToInt";
 // console.log(numRabbits([1,0,1,0,0]))
 
 // console.log(romanToInt("MCMXCIV"))
-console.log(longestCommonPrefix(["flower","flow","flight"]))
+// console.log(longestCommonPrefix(["flower","flow","flight"]))
+
+let list1Head = new ListNode(1, new ListNode(2, new ListNode(4, null)))
+let list2Head = new ListNode(1, new ListNode(3, new ListNode(4, null)))
+
+printList(mergeTwoLists(list1Head, list2Head))
+printList(mergeTwoLists(null, new ListNode(0, null)))
