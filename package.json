@@ -1,0 +1,11 @@
+{
+  "name": "leetcode-practice",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "yarn tsc && node dist/index.js"
+  }
+}
