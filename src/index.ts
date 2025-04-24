@@ -1,6 +1,7 @@
 import { longestCommonPrefix } from "./longestCommonPrefix";
 import { mergeTwoLists, printList } from "./mergeTwoSortedLists";
 import { numRabbits } from "./rabbitsInForest";
+import { removeDuplicates } from "./removeDuplicatesFromSortedList";
 import { romanToInt } from "./romanToInt";
 import { isValid } from "./validParanthesis";
 
@@ -18,4 +19,6 @@ import { isValid } from "./validParanthesis";
 // printList(mergeTwoLists(null, new ListNode(0, null)))
 
 
-console.log(isValid("()[]{}"))
+// console.log(isValid("()[]{}"))
+
+console.log(removeDuplicates([1,1,2]))
