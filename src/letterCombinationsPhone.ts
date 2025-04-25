@@ -1,3 +1,5 @@
+// TODO: optimize later
+
 function getAlphabetsForDigit(digit: number): string[] {
     switch (digit) {
         case 1:
