@@ -1,4 +1,5 @@
 import { longestCommonPrefix } from "./longestCommonPrefix";
+import { merge as mergeIntervals } from "./mergeIntervals";
 import { mergeTwoLists, printList } from "./mergeTwoSortedLists";
 import { numRabbits } from "./rabbitsInForest";
 import { removeDuplicates } from "./removeDuplicatesFromSortedList";
@@ -21,4 +22,7 @@ import { isValid } from "./validParanthesis";
 
 // console.log(isValid("()[]{}"))
 
-console.log(removeDuplicates([1,1,2]))
+// console.log(removeDuplicates([1,1,2]))
+console.log(mergeIntervals([[1,3],[2,6],[8,10],[15,18]]))
+// console.log(mergeIntervals([[1,4],[0,4]]))
+// console.log(mergeIntervals([[1,4],[0,1]]))
