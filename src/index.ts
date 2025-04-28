@@ -1,3 +1,4 @@
+import { addBinary } from "./addBinary";
 import { longestCommonPrefix } from "./longestCommonPrefix";
 import { merge as mergeIntervals } from "./mergeIntervals";
 import { mergeTwoLists, printList } from "./mergeTwoSortedLists";
@@ -23,6 +24,9 @@ import { isValid } from "./validParanthesis";
 // console.log(isValid("()[]{}"))
 
 // console.log(removeDuplicates([1,1,2]))
-console.log(mergeIntervals([[1,3],[2,6],[8,10],[15,18]]))
+// console.log(mergeIntervals([[1,3],[2,6],[8,10],[15,18]]))
 // console.log(mergeIntervals([[1,4],[0,4]]))
 // console.log(mergeIntervals([[1,4],[0,1]]))
+
+// console.log(addBinary("11", "1"))
+console.log(addBinary("1010", "1011"))
