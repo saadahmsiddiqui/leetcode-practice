@@ -5,6 +5,7 @@ import { mergeTwoLists, printList } from "./mergeTwoSortedLists";
 import { numRabbits } from "./rabbitsInForest";
 import { removeDuplicates } from "./removeDuplicatesFromSortedList";
 import { romanToInt } from "./romanToInt";
+import { strStr } from "./searchStr";
 import { isValid } from "./validParanthesis";
 
 // console.log(numRabbits([10,10,10]))
@@ -29,4 +30,5 @@ import { isValid } from "./validParanthesis";
 // console.log(mergeIntervals([[1,4],[0,1]]))
 
 // console.log(addBinary("11", "1"))
-console.log(addBinary("1010", "1011"))
+// console.log(addBinary("1010", "1011"))
+console.log(strStr("mississippi", "issip"))
