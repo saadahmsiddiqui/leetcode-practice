@@ -2,6 +2,7 @@ import { numEquivDominoPairs } from "./countEquivalentDominoPairs";
 import { longestCommonPrefix } from "./longestCommonPrefix";
 import { merge as mergeIntervals } from "./mergeIntervals";
 import { mergeTwoLists, printList } from "./mergeTwoSortedLists";
+import { plusOne } from "./plusOne";
 import { numRabbits } from "./rabbitsInForest";
 import { removeDuplicates } from "./removeDuplicatesFromSortedList";
 import { romanToInt } from "./romanToInt";
@@ -28,4 +29,6 @@ import { isValid } from "./validParanthesis";
 // console.log(mergeIntervals([[1,4],[0,4]]))
 // console.log(mergeIntervals([[1,4],[0,1]]))
 
-console.log(numEquivDominoPairs([[1,2],[1,2],[1,1],[1,2],[2,2]]))
+// console.log(numEquivDominoPairs([[1,2],[1,2],[1,1],[1,2],[2,2]]))
+
+console.log(plusOne([8,9,9,9]))
