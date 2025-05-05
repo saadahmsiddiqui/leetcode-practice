@@ -7,6 +7,7 @@ import { numRabbits } from "./rabbitsInForest";
 import { removeDuplicates } from "./removeDuplicatesFromSortedList";
 import { romanToInt } from "./romanToInt";
 import { isValid } from "./validParanthesis";
+import { exist } from "./wordSearch";
 
 // console.log(numRabbits([10,10,10]))
 // console.log(numRabbits([1,1,2]))
@@ -31,4 +32,7 @@ import { isValid } from "./validParanthesis";
 
 // console.log(numEquivDominoPairs([[1,2],[1,2],[1,1],[1,2],[2,2]]))
 
-console.log(plusOne([8,9,9,9]))
+// console.log(plusOne([8,9,9,9]))
+
+console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED"))
+console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB"))
