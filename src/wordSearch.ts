@@ -16,6 +16,9 @@ function stepForward(
   previousRow: number | null,
   previousCol: number | null
 ) {
+
+    console.log(word[wordIndex], currentRow, currentColumn)
+
   if (
     wordIndex === word.length - 1 &&
     word[wordIndex] === board[currentRow][currentColumn]

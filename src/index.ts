@@ -1,3 +1,4 @@
+import { findEvenNumbers } from "./3digitEven";
 import { numEquivDominoPairs } from "./countEquivalentDominoPairs";
 import { longestCommonPrefix } from "./longestCommonPrefix";
 import { merge as mergeIntervals } from "./mergeIntervals";
@@ -34,5 +35,7 @@ import { exist } from "./wordSearch";
 
 // console.log(plusOne([8,9,9,9]))
 
-console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED"))
-console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB"))
+// console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED"))
+// console.log(exist([["C","A","A"],["A","A","A"],["B","C","D"]], "AAB"))
+
+console.log(findEvenNumbers([1,2,3]))
