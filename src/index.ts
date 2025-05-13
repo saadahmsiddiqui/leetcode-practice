@@ -7,6 +7,7 @@ import { plusOne } from "./plusOne";
 import { numRabbits } from "./rabbitsInForest";
 import { removeDuplicates } from "./removeDuplicatesFromSortedList";
 import { romanToInt } from "./romanToInt";
+import { lengthAfterTransformations } from "./stringTransformationCountLetters";
 import { isValid } from "./validParanthesis";
 import { exist } from "./wordSearch";
 
@@ -38,4 +39,5 @@ import { exist } from "./wordSearch";
 // console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED"))
 // console.log(exist([["C","A","A"],["A","A","A"],["B","C","D"]], "AAB"))
 
-console.log(findEvenNumbers([1,2,3]))
+// console.log(findEvenNumbers([1,2,3]))
+console.log(lengthAfterTransformations("abcyy", 2))
