@@ -1,10 +1,12 @@
+const MOD = 1e9 + 7
+
 function applyTransformation(counts: Map<string, number>) {
     let newMap = new Map();
 
     for (const [key, val] of counts.entries()) {
         if (key === 'z') {
-            newMap.set('a', (newMap.get('a') ?? 0) + val)
-            newMap.set('b', (newMap.get('b') ?? 0) + val)
+            newMap.set('a', ((newMap.get('b') ?? 0) + val) % MOD)
+            newMap.set('b', ((newMap.get('b') ?? 0) + val) % MOD)
         } else {
             if (val === 0) {
                 newMap.set(key, newMap.get(key) ?? 0);
@@ -64,7 +66,6 @@ export function lengthAfterTransformations(s: string, t: number): number {
     }
 
 
-    const MOD = 1e9 + 7
     return Array.from(counts.values()).reduce((agg, curr) => {
         return (agg + curr)
     }, 0) % MOD;
